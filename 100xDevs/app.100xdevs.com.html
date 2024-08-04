@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>100xdevs.com</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .course-card {
+            text-align: center;
+            color: white;
+            font-size: large;
+            border: 2px solid white;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            width: 400px;
+            box-sizing: border-box;
+        }
+
+        .course-card img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+
+        .button {
+            background-color: rgb(43, 43, 220);
+            color: white;
+            padding: 10px 10px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: large;
+            margin: 10px;
+            white-space: nowrap;
+            min-width: 150px;
+            padding-left: 125px;
+            padding-right: 125px;
+        }
+
+        .database {
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            align-items: center;
+            padding-left: 600px;
+        }
+
+        .button-style {
+            background-color: rgb(43, 43, 220);
+            color: white;
+            padding: 10px 10px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: large;
+            margin: 10px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        .baseline {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex; align-items: center;">
+        <img src="https://d2szwvl7yo497w.cloudfront.net/courseThumbnails/main.png" alt="profile pic"
+            style="border-radius: 50%;" width="30" height="30">
+        <h3 style="font-family: Arial, Helvetica, sans-serif; color: white;">100xdevs</h3>
+        <button
+            style="background-color:rgb(15, 15, 15); padding: 10px 20px; margin-left: auto; border: 2px solid rgb(251, 236, 236); border-radius: 20px; cursor: pointer; color:rgb(251, 236, 236); margin-right: 450px; padding-right: 220px; ">
+            🔍 Search for videos...</button>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRre5w6Sc2X2mNPFT_y4jm6MTPHcAvBJbVSvLcyR_bxxvGnCD1UnmQ1clDCIWVx3I3qGtc&usqp=CAU"
+            alt="User profile pic" style="padding-left: 20px; border-radius: 50%; border: 2px" width="30px"
+            height="30px">
+    </div>
+    <hr style="width: 100%; border: 1px solid rgb(246, 200, 200); margin-top: 10px;">
+    <h1
+        style="color: white; padding-left: 100px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+        Courses</h1>
+    <div class="container">
+        <div class="course-card">
+            <img src="https://appxcontent.kaxa.in/paid_course3/2024-07-07-0.07833836520330406.png" alt="component-1">
+            <div>
+                <p>Complete Web Development + Devops +</p>
+                <p>BlockChain Cohort</p>
+                <button class="button">View Content</button>
+                <div>
+                    <div>
+                        <button class="button">Discord</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="course-card">
+            <img src="https://d2szwvl7yo497w.cloudfront.net/courseThumbnails/adhoc.jpg" alt="component-2">
+            <div>
+                <p>Ad hoc classes Cohort</p>
+                <button class="button">View Content</button>
+            </div>
+        </div>
+        <div class="course-card">
+            <img src="https://d2szwvl7yo497w.cloudfront.net/courseThumbnails/dsa2.jpg" alt="component-3">
+            <div>
+                <p>DSA Classes Cohort</p>
+                <button class="button">View Content</button>
+            </div>
+        </div>
+        <!-- Below -->
+        <div class="course-card">
+            <img src="https://appxcontent.kaxa.in/paid_course3/2024-07-09-0.27031454992467685.png" alt="component-4">
+            <div>
+                <p>Cohort 3.0 | Web Dev Cohort</p>
+                <button class="button">View Content</button>
+                <div>
+                    <button class="button">Discord</button>
+                </div>
+            </div>
+        </div>
+        <div class="course-card">
+            <img src="https://appxcontent.kaxa.in/paid_course3/2024-07-09-0.6125162399767927.png" alt="component-5">
+            <div>
+                <p>Cohort 3.0 | Devops </p>
+                <button class="button">View Content</button>
+                <div>
+                    <button class="button">Discord</button>
+                </div>
+            </div>
+        </div>
+        <div class="course-card">
+            <img src="https://appxcontent.kaxa.in/paid_course3/2024-07-07-0.8201249093606604.png" alt="component-6">
+            <div>
+                <p>Cohort 3.0 | Web 3</p>
+                <button class="button">View Content</button>
+                <div>
+                    <button class="button">Discord</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="database">
+        <h3>Don't see all your courses?</h3>
+        <button class="button-style">Refresh Database</button>
+    </div>
+    <div class="baseline">
+        <div style="display: flex; align-items: center;">
+            <img src="https://d2szwvl7yo497w.cloudfront.net/courseThumbnails/main.png" alt="profile pic"
+                style="border-radius: 50%;" width="30" height="30">
+            <h3>100xdevs</h3>
+            <h5 style="padding-left: 600px;">Quick Links <br><br> Terms & Conditions <br> Privacy Policy <br>Refund &
+                Cancellation</h5>
+            <div style="padding-left: 400px;">
+                <h3>Download App <br> <img
+                        src="https://app.100xdevs.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fplaystore.1de362c2.png&w=256&q=75"
+                        alt="playstore image" width="150" height="50"> <br>Follow us <br>
+                    <img src="https://static.vecteezy.com/system/resources/previews/036/184/614/non_2x/social-media-logo-icons-set-facebook-instagram-twitter-youtube-symbols-free-vector.jpg"
+                        alt="social-media-logo-icon" width="150" height="50">
+                </h3>
+            </div>
+        </div>
+</body>
+
+</html>

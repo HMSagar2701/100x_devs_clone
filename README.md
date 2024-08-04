@@ -1,2 +1,3 @@
-Here I have tried to copy 100xdevs website
-I am tryimg to add to git
+Here I have tried to clone 100xdevs website
+I am trying to add to git ...
+
